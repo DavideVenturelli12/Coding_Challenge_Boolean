@@ -1,0 +1,79 @@
+body{
+  background-image: url(img/background.jpg);
+  background-size: cover;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 800px;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+}
+
+header > img{
+  width: 190px;
+  margin-top: 50px;
+}
+
+header > h1{
+  color: lime;
+  margin-top: 10px
+}
+
+nav > div{
+  background-color: lime;
+  width: 650px;
+  height: 40px;
+  text-align: center;
+  margin: auto;
+}
+
+nav button{
+  margin-top: 9.5px;
+}
+
+main{
+  text-align: left;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+
+.monopattini{
+  color: white;
+  margin-top: 20px;
+}
+
+.modello{
+  font-size: 20px;
+}
+
+.arrow:after{
+  content: "\21A6";
+}
+
+.informazioni{
+  font-size: 15px;
+}
+
+.carica1{
+  background-color: orange;
+  width: 250px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.carica2{
+  background-color: green;
+  width: 400px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.carica3{
+  background-color: red;
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+}
